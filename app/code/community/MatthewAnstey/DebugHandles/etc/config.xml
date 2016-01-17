@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MatthewAnstey_DebugHandles>
+            <version>0.0.1</version>
+        </MatthewAnstey_DebugHandles>
+    </modules>
+    <global>
+        <blocks>
+            <matthewanstey_debughandles>
+                <class>MatthewAnstey_DebugHandles_Block</class>
+            </matthewanstey_debughandles>
+        </blocks>
+    </global>  
+    <frontend>  
+        <layout>
+            <updates>
+                <matthewanstey_debughandles>
+                    <file>matthewanstey_debughandles.xml</file>
+                </matthewanstey_debughandles>
+            </updates>
+        </layout>
+    </frontend>
+</config>
