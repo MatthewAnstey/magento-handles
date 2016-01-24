@@ -2,9 +2,14 @@
 <layout>
     <default>
         <reference name="head">
-            <block type="matthewanstey_debughandles/log" 
-            	name="debughandles" 
-            	template="matthewanstey_debughandles/matthewanstey_debughandles.phtml"/>
-        </reference>    
+            <block type="matthewanstey_debughandles/log"
+            	name="matthewanstey_debughandles"/>
+        </reference>
+        <reference name="matthewanstey_debughandles"> 
+        	<action method="setTemplate" 
+        		ifconfig="matthewanstey/matthewanstey_group/matthewanstey_debug_select">
+                <template>matthewanstey_debughandles/matthewanstey_debughandles.phtml</template>	
+        	</action>	
+        </reference>   
     </default>
 </layout>
